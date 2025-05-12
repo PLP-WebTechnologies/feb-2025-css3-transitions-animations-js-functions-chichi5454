@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 40px;
+}
+
+#box {
+  width: 100px;
+  height: 100px;
+  background-color: coral;
+  margin: 20px auto;
+  transition: transform 0.5s ease;
+}
+
+#box.animate {
+  transform: rotate(360deg);
+}
+
+button {
+  padding: 10px 15px;
+  margin: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: lightgray;
+}
